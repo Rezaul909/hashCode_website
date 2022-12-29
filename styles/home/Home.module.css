@@ -1,0 +1,8 @@
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 3rem 0;
+  margin-top: 2rem;
+}/*# sourceMappingURL=Home.module.css.map */
