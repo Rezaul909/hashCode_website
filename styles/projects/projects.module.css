@@ -11,11 +11,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  border: 1px dotted;
+  border-radius: 15px;
 }
 
 .projects img {
   width: 40%;
+  border-radius: 15px;
 }
 
 .project_info {

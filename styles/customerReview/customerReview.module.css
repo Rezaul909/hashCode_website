@@ -1,0 +1,64 @@
+.review_container {
+  margin-top: 8rem;
+}
+
+.review_title p {
+  font-family: "Lexend";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #ee4c15;
+}
+
+.review_title h1 {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+  margin: 20px 0;
+}
+
+.review_title small {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.single_review {
+  border: 1px dotted;
+  border-radius: 15px;
+  padding: 10px;
+  width: 30%;
+}
+
+.review_pera {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.name {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.position {
+  /* Text/Regular/Normal */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}/*# sourceMappingURL=customerReview.module.css.map */

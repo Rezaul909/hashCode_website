@@ -1,17 +1,43 @@
 .container {
   padding: 2rem 4rem;
-  background-color: #F9F2ED;
+  background-color: #f9f2ed;
 }
 
 .services {
-  margin-top: 5rem;
+  margin-top: 8rem;
   display: flex;
   align-items: center;
+  /* border: 1px solid #2F333F; */
+
 }
 
 .service_title {
   width: 55%;
-  padding: 0 4rem;
+  padding: 0 2rem;
+}
+.service_title h4 {
+  font-family: "Lexend";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 0;
+  color: #ee4c15;
+}
+.service_title h1 {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f333f;
+  margin: 2rem 0;
+}
+.service_title p {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f333f;
 }
 
 .service_container {
@@ -21,13 +47,15 @@
 .service {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .service_details {
   width: 60%;
+  color: #2F333F;
+
 }
 
 .service_details h2 {
   margin-top: 0;
-}/*# sourceMappingURL=services.module.css.map */
+} /*# sourceMappingURL=services.module.css.map */
