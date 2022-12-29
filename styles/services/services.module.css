@@ -1,0 +1,33 @@
+.container {
+  padding: 2rem 4rem;
+  background-color: #F9F2ED;
+}
+
+.services {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.service_title {
+  width: 55%;
+  padding: 0 4rem;
+}
+
+.service_container {
+  width: 45%;
+}
+
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.service_details {
+  width: 60%;
+}
+
+.service_details h2 {
+  margin-top: 0;
+}/*# sourceMappingURL=services.module.css.map */

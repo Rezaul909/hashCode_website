@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../styles/home/Home.module.css";
+import styles from '../styles/home/Home.module.css'
 import checkbox from "../public/checkbox.png";
 import ontic from "../public/ontik-logo-white 1.png";
-import vector from "../public/Vector.png";
-
+import Services from "./Services";
+import Projects from "./Projects";
 
 const MainHome = () => {
   return (
@@ -24,18 +24,10 @@ const MainHome = () => {
         </div>
       </section>
       <section>
-        <div>
-          <h4>Our Services</h4>
-          <h1>Design to Development, All in One place</h1>
-          <p>
-            The headless CMS technology provides an end-to-end solution for
-            businesses who create and distribute content to websites and other
-            digital experiences at scale.
-          </p>
-        </div>
-        <div>
-          <Image src={vector}></Image>
-        </div>
+        <Services />
+      </section>
+      <section>
+        <Projects />
       </section>
     </div>
   );
