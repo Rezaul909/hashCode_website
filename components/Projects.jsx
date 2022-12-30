@@ -4,7 +4,7 @@ import banner from '../public/image 111.png'
 
 const Projects = () => {
     return (
-        <div>
+        <div className={styles.project_container}>
             <section>
                 <h1 className={styles.project_title}>Featured <br /> Project</h1>
                 <div className={styles.projects}>

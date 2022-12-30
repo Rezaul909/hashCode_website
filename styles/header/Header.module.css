@@ -9,4 +9,13 @@
   width: 30%;
   display: flex;
   justify-content: space-around;
+}
+
+.navMenu a {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
 }/*# sourceMappingURL=Header.module.css.map */

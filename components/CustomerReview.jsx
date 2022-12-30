@@ -4,7 +4,7 @@ import styles from '../styles/customerReview/customerReview.module.css'
 
 const CustomerReview = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <section className={styles.review_container}>
         <div className={styles.review_title}>
           <p>Customer Testimonials</p>

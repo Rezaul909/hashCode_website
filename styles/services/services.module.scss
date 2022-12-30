@@ -1,16 +1,16 @@
 .container {
-  padding: 2rem 4rem;
-  background-color: #f9f2ed;
+  padding: 0rem 4rem;
 }
 
 .services {
   margin-top: 5rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .service_title {
   width: 55%;
-  padding: 0 4rem;
+  padding: 0 4rem 0 0;
 }
 .service_title h4 {
   font-family: "Lexend";
@@ -38,7 +38,7 @@
   color: #2f333f;
 }
 .service_container {
-  width: 45%;
+  width: 40%;
 }
 .service {
   display: flex;
@@ -69,6 +69,6 @@
   font-weight: 700;
   font-size: 14.4px;
   line-height: 18px;
-  text-transform: uppercase;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  text-transform:uppercase;   
   color: #71788a;
 }
