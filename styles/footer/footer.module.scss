@@ -1,11 +1,66 @@
-.footer_container{
-    background-color: #000000;
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 80px;
-gap: 8px;
+.footer_container {
+  color: #ffffff;
+  background-color: #000000;
+  align-items: flex-start;
+  margin-top: 5rem;
+  padding: 2rem 4rem;
+}
+.footer_container h1 {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffffff;
+}
+.footer_container h2 {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 64px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
 
-width: 1440px;
-height: 592px;
+.footer_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_contact p {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.footer_links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_links a {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.privacy {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.privacy p {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.privacy h5 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration-line: underline;
 }

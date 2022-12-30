@@ -9,7 +9,7 @@ import CustomerReview from "./CustomerReview";
 
 const MainHome = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <section>
         <h1 className={styles.title}>We Build Stunning online Experiences for your Products</h1>
         <p className={styles.sub_title}>
