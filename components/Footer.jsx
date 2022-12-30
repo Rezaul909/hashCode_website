@@ -1,9 +1,11 @@
-import React from 'react';
+import styles from '../styles/footer/footer.module.css'
 
 const Footer = () => {
     return (
         <div>
-            <h1>This is footer</h1>
+            <section className={styles.footer_container}>
+
+            </section>
         </div>
     );
 };

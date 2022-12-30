@@ -4,39 +4,53 @@
 }
 
 .services {
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
-  /* border: 1px solid #2F333F; */
-
 }
 
 .service_title {
   width: 55%;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
+
 .service_title h4 {
   font-family: "Lexend";
+  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 0;
+  /* identical to box height, or 127% */
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  /* Primary */
   color: #ee4c15;
 }
+
 .service_title h1 {
   font-family: "Righteous";
+  font-style: normal;
   font-weight: 400;
   font-size: 60px;
   line-height: 72px;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
   color: #2f333f;
-  margin: 2rem 0;
 }
+
 .service_title p {
   font-family: "Lexend";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
   color: #2f333f;
 }
 
@@ -47,15 +61,47 @@
 .service {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .service_details {
   width: 60%;
-  color: #2F333F;
-
 }
 
 .service_details h2 {
   margin-top: 0;
-} /*# sourceMappingURL=services.module.css.map */
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  /* identical to box height, or 110% */
+  display: flex;
+  align-items: center;
+  color: #2f333f;
+}
+
+.service_details p {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #2f333f;
+}
+
+.service_details a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.4px;
+  line-height: 18px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #71788a;
+}/*# sourceMappingURL=services.module.css.map */
