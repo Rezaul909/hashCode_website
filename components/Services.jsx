@@ -17,7 +17,7 @@ const Services = () => {
         </div>
         <div className={styles.service_container}>
           <div className={styles.service}>
-            <Image src={vector}></Image>
+            <Image src={vector} alt="vector"></Image>
             <div className={styles.service_details}>
               <h2>UI/UX Design</h2>
               <p>
@@ -27,7 +27,7 @@ const Services = () => {
             </div>
           </div>
           <div className={styles.service}>
-            <Image src={vector}></Image>
+            <Image src={vector} alt="vector"></Image>
             <div className={styles.service_details}>
               <h2>Mobile App Development</h2>
               <p>
@@ -37,7 +37,7 @@ const Services = () => {
             </div>
           </div>
           <div className={styles.service}>
-            <Image src={vector}></Image>
+            <Image src={vector} alt="vector"></Image>
             <div className={styles.service_details}>
               <h2>Website Developement</h2>
               <p>

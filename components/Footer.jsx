@@ -1,4 +1,6 @@
 import styles from '../styles/footer/footer.module.css'
+import { IconName } from "react-icons/bs";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -17,8 +19,9 @@ const Footer = () => {
                         <a href="">Link4</a>
                         <a href="">Link5</a>
                     </div>
-                    <div>
-                        <p>icons</p>
+                    <div className={styles.socialIcon}>
+                        <FaFacebookF /> <FaInstagram /> <FaTwitter />
+                        <FaLinkedinIn />
                     </div>
                 </div>
                 <hr />

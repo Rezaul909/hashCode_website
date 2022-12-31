@@ -38,15 +38,20 @@
 }
 
 .single_review {
-  border: 1px dotted;
   border-radius: 15px;
   padding: 10px;
   width: 30%;
 }
 
+.star {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  color: gold;
+}
+
 .review_pera {
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 150%;
@@ -54,15 +59,12 @@
 
 .name {
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
 }
 
 .position {
-  /* Text/Regular/Normal */
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }/*# sourceMappingURL=customerReview.module.css.map */

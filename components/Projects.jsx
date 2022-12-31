@@ -6,9 +6,11 @@ const Projects = () => {
     return (
         <div className={styles.project_container}>
             <section>
-                <h1 className={styles.project_title}>Featured <br /> Project</h1>
+                <h1 className={styles.project_title}>Featured Project</h1>
                 <div className={styles.projects}>
-                    <Image src={banner} />
+                    <div className={styles.projects_img}>
+                        <Image src={banner} alt="banner"/>
+                    </div>
                     <div className={styles.project_info}>
                         <h4>BATCH</h4>
                         <p className={styles.project_detail}>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth sam familie. Lor separat.</p>
@@ -20,7 +22,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className={styles.projects}>
-                    <Image src={banner} />
+                    <div className={styles.projects_img}>
+                        <Image src={banner} alt="banner"/>
+                    </div>
                     <div className={styles.project_info}>
                         <h4>BATCH</h4>
                         <p className={styles.project_detail}>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth sam familie. Lor separat.</p>
@@ -32,7 +36,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className={styles.projects}>
-                    <Image src={banner} />
+                    <div className={styles.projects_img}>
+                        <Image src={banner} alt="banner"/>
+                    </div>
                     <div className={styles.project_info}>
                         <h4>BATCH</h4>
                         <p className={styles.project_detail}>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth sam familie. Lor separat.</p>

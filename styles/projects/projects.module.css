@@ -16,13 +16,16 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 4rem;
-  border: 1px dotted;
   border-radius: 15px;
 }
 
-.projects img {
+.projects_img {
   width: 45%;
+}
+
+.projects_img img {
   border-radius: 15px;
+  width: 100%;
 }
 
 .project_info {
@@ -31,11 +34,9 @@
 
 .project_info h4 {
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  /* identical to box height, or 127% */
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #000000;
@@ -43,7 +44,6 @@
 
 .project_detail {
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -52,7 +52,6 @@
 
 .project_btn a {
   font-family: "Lexend";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
