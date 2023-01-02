@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <div>
             <section className={styles.footer_container}>
-                <div>
+                <div className={styles.footer_title}>
                     <h1>Have an idea?</h1>
-                    <h2>Tell us about it</h2>
+                    <a>Tell us about it</a>
                 </div>
                 <div className={styles.footer_contact}>
                     <p>contact@spaceteq.com</p>
@@ -20,8 +20,10 @@ const Footer = () => {
                         <a href="">Link5</a>
                     </div>
                     <div className={styles.socialIcon}>
-                        <FaFacebookF /> <FaInstagram /> <FaTwitter />
-                        <FaLinkedinIn />
+                        <span><FaFacebookF /></span> 
+                        <span><FaInstagram /></span> 
+                        <span><FaTwitter /></span>
+                        <span><FaLinkedinIn /></span>
                     </div>
                 </div>
                 <hr />

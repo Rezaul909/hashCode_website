@@ -6,7 +6,7 @@ import styles from '../styles/header/Header.module.css'
 
 const Header = () => {
   return (
-    <div>
+    <div >
       <header className={styles.headerContainer} >
         <div>
           <Image src={logo} alt="logo"></Image>
