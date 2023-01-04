@@ -20,7 +20,7 @@ const Header = () => {
         <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand href="#">
-              <div>
+              <div className={styles.headerContainer}>
                 <Image src={logo} alt="logo"></Image>
               </div>
             </Navbar.Brand>
