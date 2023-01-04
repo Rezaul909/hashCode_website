@@ -6,7 +6,7 @@
 }
 
 .navMenu {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
@@ -19,4 +19,20 @@
   line-height: 150%;
   color: #000000;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .navMenu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .navMenu {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=Header.module.css.map */

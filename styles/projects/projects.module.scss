@@ -18,7 +18,7 @@
   border-radius: 15px;
 }
 .projects_img{
-  width: 45%;
+  width: 50%;
 }
 .projects_img img{
   border-radius: 15px;
@@ -42,7 +42,6 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
-
   color: #000000;
 }
 .project_btn a {
@@ -56,4 +55,35 @@
   background: #ebccc2;
   border-radius: 12px;
   text-decoration: none;
+}
+
+@media only screen and (max-width:420px){
+  .projects{
+    display: flex;
+    flex-direction: column;
+  }
+  .projects_img{
+    width: 100%;
+  }
+  .project_info {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:920px) {
+  .project_container{
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+  }
+  .project_btn a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .project_detail {
+    font-size: 22px;
+  }
 }

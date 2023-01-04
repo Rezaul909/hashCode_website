@@ -5,7 +5,7 @@
 .title {
   font-family: "Righteous";
   font-weight: 400;
-  font-size: 96px;
+  font-size: 6rem;
   line-height: 84px;
   width: 90%;
   color: #000000;
@@ -41,4 +41,23 @@
   justify-content: space-between;
   background-color: black;
   padding: 3rem 0;
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    padding: 5rem 1rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .brand img {
+    width: 80vw;
+    height: 10vh;
+  }
 }/*# sourceMappingURL=Home.module.css.map */
