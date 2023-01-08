@@ -6,7 +6,9 @@ const Projects = () => {
     return (
         <div className={styles.project_container}>
             <section>
-                <h1 className={styles.project_title}>Featured Project</h1>
+                <div>
+                    <h1 className={styles.project_title}>Featured Project</h1>
+                </div>
                 <div className={styles.projects}>
                     <div className={styles.projects_img}>
                         <Image src={banner} alt="banner"/>
